@@ -21,9 +21,9 @@ del hello.exe
 i686-w64-mingw32-gcc-win32 hello.c  -o hello.exe
 # the compiler name can also variate on other mingw versions
 # could be simply something like mingw32-gcc
-#to read the content of the file hello.c on UNIX or msys shell
+#to read the content of the file hello.c on UNIX/Linux/Mac or msys shell
 cat hello.c
-#to read the content of this file on UNIX or msys shell
+#to read the content of this file on UNIX/Linux/Mac or msys shell
 cat README
 #to download this project from github with git commandline
 git clone https://github.com/FraLaz1971/gcchello.git
