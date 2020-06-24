@@ -27,3 +27,5 @@ cat hello.c
 cat README
 #to download this project from github with git commandline
 git clone https://github.com/FraLaz1971/gcchello.git
+#or use your preferred git GUI as git-cola https://git-cola.github.io 
+#or tortoise git https://tortoisegit.org
