@@ -1,0 +1,27 @@
+#hello world example in standard C language
+#compiling instruction are given for the gcc compiler https://gcc.gnu.org
+#and gnu (g)make  https://www.gnu.org/software/make
+#it's supposed to run under bash or another posix shell 
+#to compile
+make hello
+#to run
+./hello
+#to compile without make
+gcc hello.c -o hello
+#to compile with mingw in MS windows under msys2
+gcc hello.c -o hello.exe
+#to remove the generated executable in unix bash
+rm hello
+#or in win msys2
+rm hello.exe
+#or in win cmd.exe (or wineconsole/ReactOS shell)
+del hello.exe
+#to compile in MS win 32bit executables with mingw
+#this works in MS win outside msys environment
+i686-w64-mingw32-gcc-win32 hello.c  -o hello.exe
+# the compiler name can also variate on other mingw versions
+# could be simply something like mingw32-gcc
+#to read the content of the file hello.c on UNIX or msys shell
+cat hello.c
+#to read the content of this file on UNIX or msys shell
+cat README
