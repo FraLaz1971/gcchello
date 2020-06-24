@@ -25,3 +25,5 @@ i686-w64-mingw32-gcc-win32 hello.c  -o hello.exe
 cat hello.c
 #to read the content of this file on UNIX or msys shell
 cat README
+#to download this project from github with git commandline
+git clone https://github.com/FraLaz1971/gcchello.git
